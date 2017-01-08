@@ -1,6 +1,5 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 // @import 'font-awesome/scss/font-awesome';
-// @import 'bulma.bulma';
 @import 'box-sizing';
 @import 'bulma';
 body {
@@ -15,4 +14,13 @@ body {
 
 .section {
   background: #F5F7FA;
+}
+
+.footer {
+  border-top: 0.1rem solid lightgray;
+  height: 2rem;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
 }
