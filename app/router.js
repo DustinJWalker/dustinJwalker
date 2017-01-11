@@ -7,6 +7,7 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('app');
   this.route('me');
   this.route('resume');
   this.route('projectA');
