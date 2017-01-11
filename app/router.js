@@ -11,10 +11,10 @@ Router.map(function() {
   this.route('me');
   this.route('resume');
   this.route('contact');
-  this.route('projectA');
-  this.route('project-b');
-  this.route('project-c');
-  this.route('project-d');
+  this.route('boot');
+  this.route('marvel');
+  this.route('netflix');
+  this.route('tshirt');
 });
 
 export default Router;
