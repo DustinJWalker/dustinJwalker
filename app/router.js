@@ -10,6 +10,7 @@ Router.map(function() {
   this.route('me');
   this.route('resume');
   this.route('projectA');
+  this.route('project-b');
 });
 
 export default Router;
