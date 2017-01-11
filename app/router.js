@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('resume');
   this.route('projectA');
   this.route('project-b');
+  this.route('project-c');
 });
 
 export default Router;
