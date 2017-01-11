@@ -20,3 +20,14 @@ body {
   display: flex;
   justify-content: space-around;
 }
+
+.me {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 1rem;
+  max-width: 100%;
+}
+.profile__pic {
+  border-radius: 50%;
+  border: 0.1rem solid #69707A;
+}
