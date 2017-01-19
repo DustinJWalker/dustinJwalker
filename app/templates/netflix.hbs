@@ -1,11 +1,11 @@
-<div class="modal">
+<div class="modal is-active">
   <div class="modal-background"></div>
   <div class="modal-card">
     <header class="modal-card-head">
-      <p class="modal-card-title">Netflix</p>
-      <a href="app">
-      <button class="delete"></button>
-      </a>
+      <p class="modal-card-title has-text-centered">Netflix</p>
+      {{#link-to "index"}}
+        <button class="delete"></button>
+      {{/link-to}}
     </header>
     <section class="modal-card-body">
       <!-- Content ... -->

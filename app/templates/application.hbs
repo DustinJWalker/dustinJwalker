@@ -2,179 +2,69 @@
   <div class="tabs is-centered is-info">
     <ul>
       <li>
-        <a href="me">
+        {{#link-to "index"}}
           <span class="icon is-small"><i class="fa fa-code" aria-hidden="true"></i></span>
           <span>Dustin Walker</span>
-        </a>
+        {{/link-to}}
+      </li>
+      <li>
+        {{#link-to "me"}}
+          <span class="icon is-small"><i class="fa fa-user" aria-hidden="true"></i></span>
+          <span>About Me</span>
+        {{/link-to}}
       </li>
 
       <li>
-        <a href="https://www.linkedin.com/in/dustin-j-walker-2887b5131">
+        <a href="https://www.linkedin.com/in/dustin-j-walker-2887b5131" target="_blank">
           <span class="icon is-small"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
           <span>Linked In</span>
         </a>
       </li>
       <li>
-        <a href="resume">
+        {{#link-to "resume"}}
           <span class="icon is-small"><i class="fa fa-file-pdf-o" aria-hidden="true"></i></span>
           <span>Resume</span>
-        </a>
+        {{/link-to}}
       </li>
       <li>
-      <a href="contact">
+        {{#link-to "contact"}}
           <span class="icon is-small"><i class="fa fa-paper-plane-o" aria-hidden="true"></i></span>
           <span>Contact</span>
-      </a>
+        {{/link-to}}
       </li>
     </ul>
   </div>
 
-  {{ outlet }}
-  {{!-- <section class="hero is-dark is-bold"> --}}
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title has-text-centered">
-          Hello, my name is Dustin Walker and I am a web developer.
-        </h1>
-        <h2 class="subtitle has-text-centered">
-          <strong>Let's solve some problems.</strong>
-        </h2>
-      </div>
-    </div>
-  {{!-- </section> --}}
-  <body>
-  <section class="section">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-half">
-          <figure class="image is-256x256">
-            <a href="https://beat-the-boot.herokuapp.com/app">
-              <img src="./images/bootamock.jpg">
-            </a>
-          </figure>
-        </div>
-        <div class="column__1">
-          <figure class="image is-256x256">
-            <a href="https://beat-the-boot.herokuapp.com/app">
-            <img src="./images/bootbmock.jpg">
-            </a>
-          </figure>
-        </div>
-        <div class="column__2">
-          <a class="button is-large" href="boot">
-            Read More
-          </a>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-half">
-          <figure class="image is-256x256">
-            <a href="http://www.dustin-marvel.surge.sh">
-              <img src="/images/marvelmocka.jpg">
-            </a>
-          </figure>
-
-
-        </div>
-        <div class="column__1">
-          <figure class="image is-256x256">
-            <a href="http://www.dustin-marvel.surge.sh">
-              <img src="/images/marvelmockb.jpg">
-            </a>
-          </figure>
-        </div>
-
-        <div class="column__2">
-          <a class="button is-large" href="">
-            Read More
-          </a>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-half">
-          <figure class="image is-256x256">
-            <a href="http://dustin-netflix.surge.sh">
-              <img src="/images/netflixmocka.jpg">
-            </a>
-            </figure>
-          </div>
-          <div class="column__1">
-            <figure class="image is-256x256">
-              <a href="http://dustin-netflix.surge.sh">
-                <img src="/images/netflixmockb.jpg">
-              </a>
-            </figure>
-        </div>
-
-        <div class="column__2">
-          <a class="button is-large" href="netflix">
-            Read More
-          </a>
-        </div>
-      </div>
-      <div class="columns">
-        <div class="column is-half">
-          <figure class="image is-256x256">
-            <a href="http://dustin-tshirt.surge.sh">
-              <img src="/images/shirtmocka.jpg">
-            </a>
-          </figure>
-        </div>
-
-        <div class="column__1">
-          <figure class="image is-256x256">
-            <a href="http://dustin-tshirt.surge.sh">
-              <img src="/images/shirtmockb.jpg">
-            </a>
-
-          </figure>
-        </div>
-        <div class="column__2">
-          <a class="button is-large" href="tshirt">
-            Read More
-          </a>
-        </div>
-      </div>
-
-
-    </div>
-
-
-
-  </section>
-</body>
-
-
-
+  {{outlet}}
 
   <footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <p>
-        <strong>Thank You for visiting my website.</strong>
-      </p>
-      <p>
-        <a class="icon" href="https://www.linkedin.com/in/dustin-j-walker-2887b5131">
-          <i class="fa fa-linkedin"></i>
-        </a>
-      </p>
+    <div class="container">
+      <div class="content has-text-centered">
+        <p>
+          <strong>Thank You for visiting my website.</strong>
+        </p>
+        <p>
+          <a class="icon" href="https://www.linkedin.com/in/dustin-j-walker-2887b5131">
+            <i class="fa fa-linkedin"></i>
+          </a>
+        </p>
         {{!-- <p>
           <a class="icon" href="https://github.com/jgthms/bulma">
             <i class="fa fa-envelope-o"></i>
           </a>
         </p> --}}
-      <p>
-        <a class="icon" href="https://github.com/dustinjwalker">
-          <i class="fa fa-github"></i>
-        </a>
-      </p>
-      <p>
-        <a class="icon" href="https://twitter.com/DustinWalker_">
-          <i class="fa fa-twitter"></i>
-        </a>
-      </p>
+        <p>
+          <a class="icon" href="https://github.com/dustinjwalker">
+            <i class="fa fa-github"></i>
+          </a>
+        </p>
+        <p>
+          <a class="icon" href="https://twitter.com/DustinWalker_">
+            <i class="fa fa-twitter"></i>
+          </a>
+        </p>
 
+      </div>
     </div>
-  </div>
-</footer>
+  </footer>
 </div>
