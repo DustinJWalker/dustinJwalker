@@ -7,7 +7,7 @@
   "directories": {
     "doc": "doc",
     "test": "tests",
-    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist terrible-potato.surge.sh"
+    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist elated-class.surge.sh"
   },
   "repository": "",
   "scripts": {
