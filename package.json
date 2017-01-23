@@ -13,7 +13,7 @@
     "build": "ember build",
     "start": "ember server",
     "test": "ember test",
-    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist dustinjwalker.surge.sh"
+    "deploy": "ember build -e production && cp dist/index.html dist/200.html && surge dist elated-class.surge.sh"
   },
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
