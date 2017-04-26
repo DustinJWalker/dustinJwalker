@@ -37,13 +37,13 @@
               Beat The Boot was my final project at The Iron Yard. Our final projects were a collaborative effort with a partner. The idea behind this app was to provide a service to the great local coffee shops in our area. I wanted to build an application that would
               provide the end user the opportunity to place an order, find directions to the specific shop and find parking in the area. The applications also provides the shop owners with the ability to manipulate their menu items and mark available
               parking options. We built this application with: EmberJS, AdonisJS, SASS, Google Maps and Bulma.
-
-
             </div>
           </article>
-        {{/link-to}}
+          {{/link-to}}
+        </div>
       </div>
-    </div>
+
+
     <div class="columns">
       <div class="column is-half">
         <figure class="image is-256x256">
@@ -54,20 +54,34 @@
       </div>
 
 
-      <div class="column__1">
+      {{!-- <div class="column__1">
         <figure class="image is-256x256">
           <a href="http://www.dustin-marvel.surge.sh" target="_blank">
             <img src="/images/marvelmockb.jpg">
           </a>
         </figure>
-      </div>
+      </div> --}}
 
-      <div class="column__2">
-        {{#link-to "marvel" class="button is-large" }}
-          Read More
+      <div class="column is-half">
+        {{#link-to "marvel" class="message" }}
+        <article class="message">
+          <div class="message-header">
+            Project Info
+          </div>
+          <div class="message-body">
+            Marvel was our first project using a JavaScript framework.  On this build we used VUE JS.  It was an eye opening experience
+            to see how a framework could make your job more effecient while also giving you greater ability.  I'm not a huge comic
+            book fan, but using the Marvel API and searching all those iconic comic book titles, in an applicataion we built no less,
+            was a very rewarding experience.
+          </div>
+        </article>
         {{/link-to}}
       </div>
     </div>
+
+
+
+
     <div class="columns">
       <div class="column is-half">
         <figure class="image is-256x256">
