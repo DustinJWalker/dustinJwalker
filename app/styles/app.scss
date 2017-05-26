@@ -1,13 +1,36 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
+// $ember-3d-nav-defaults: (
+//   'is-fixed-nav-bg': darken(#333333, 5%),
+//   'nav-bg': darken(#333333, 10%),
+//   'nav-container-bg': #000,
+//   'nav-height-small': 80px,
+//   'nav-height-medium': 170px,
+//   'nav-item-hover': darken(#333333, 15%),
+//   'nav-item-selected': darken(#333333, 20%),
+//   'nav-items': 5,
+//   'nav-marker-color': #DA4843,
+//   'nav-text-color': #fff,
+//   'nav-trigger-color': #fff,
+//   'transition-duration': 0.5s
+// );
+//
+// $ember-3d-nav: (
+//   'is-fixed-nav-bg': #624B86,
+//   'nav-items': 4,
+//   'nav-text-color': #f5f0e1
+// );
+
 // @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'bulma';
+@import 'ember-3d-nav';
+
 body {
   margin: 0 auto;
   font-family: 'Playfair Display', serif;
 }
 
-.container  {
+.container {
   margin: 0 auto;
   max-width: 60rem;
 }
@@ -31,6 +54,7 @@ body {
   padding-bottom: 1rem;
   max-width: 100%;
 }
+
 .profile__pic {
   border-radius: 50%;
   border: 0.2rem solid #69707A;
@@ -40,7 +64,7 @@ body {
   margin-top: 5rem;
 }
 
-.column__2  {
+.column__2 {
   margin-top: 10rem;
 }
 
