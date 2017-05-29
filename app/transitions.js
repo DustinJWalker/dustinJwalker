@@ -1,8 +1,4 @@
-// export default function(){
-//   this.transition(
-//     this.fromRoute('application'),
-//     this.toRoute('resume'),
-//     this.use('toLeft'),
-//     this.reverse('toRight')
-//   );
-// };
+this.transition(
+  this.childOf('#liquid-bind-demo'),
+  this.use('toUp')
+);
