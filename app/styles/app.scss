@@ -28,6 +28,8 @@ $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 body {
   margin: 0 auto;
   font-family: 'Playfair Display', serif;
+  text-transform: capitalize;
+  // text-shadow: 0.5px 0.5px 0.5px #333333;
 }
 
 .container {
@@ -45,7 +47,7 @@ body {
 }
 
 .modal {
-  background: black;
+  background: url('/images/before.jpg') center center  no-repeat;
 }
 // About me section
 .me {
@@ -57,7 +59,7 @@ body {
 
 .profile__pic {
   border-radius: 50%;
-  border: 0.2rem solid #69707A;
+  border: 0.2rem solid #333333;
 }
 
 .column__1 {
