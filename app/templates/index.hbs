@@ -25,8 +25,8 @@
               <h4 class="head">Stack: Ember Js Adonis JS  SASS</h4>
             </div>
             <div class="footer_text">
-              <p class="view">View Project</p>
-              <p class="view">See the code</p>
+            <a href="https://beat-the-boot.herokuapp.com/app" target="_blank">View Project</a>
+              <a href="https://github.com/DustinJWalker/beat-the-boot" target="_blank">See the code</a>
             </div>
 
           </div>
@@ -36,17 +36,19 @@
       <div class="column is-6">
         <div class="card">
           <div class="card-image">
+            {{#link-to "marvel" class="message-is-info"}}
             <figure class="image is-4by3">
               <img src="/images/marvela.jpg" alt="Image">
             </figure>
+            {{/link-to}}
           </div>
           <div class="card-content">
             <div class="content">
               <h4 class="head">Stack: Vue JS Marvel API SASS</h4>
             </div>
             <div class="footer_text">
-              <p class="view">View Project</p>
-              <p class="view">See the code</p>
+              <a href="https://dustin-marvel.surge.sh" target="_blank">View Project</a>
+              <a href="https://github.com/DustinJWalker/15-marvel" target="_blank">See the Code</a>
             </div>
           </div>
         </div>
@@ -57,16 +59,18 @@
       <div class="column is-6">
         <div class="card">
           <div class="card-image">
+            {{#link-to "tshirt" class="message-is-info"}}
             <figure class="image is-4by3">
               <img src="/images/whymp.jpg" alt="Image">
             </figure>
+            {{/link-to}}
           </div>
           <div class="card-content">
             <div class="content">
               <h4 class="head">Stack: HubSpot CMS</h4>
             </div>
             <div class="footer_text">
-              <p class="view">View Page</p>
+            <a href="http://www.medproctor.com/why-medproctor-immunization-verification" target="_blank">View Page</a>
             </div>
 
           </div>
@@ -75,17 +79,19 @@
         <div class="column is-6">
           <div class="card">
             <div class="card-image">
+              {{#link-to "netflix" class="message-is-info"}}
               <figure class="image is-4by3">
                 <img src="/images/netflixa.jpg" alt="Image">
               </figure>
+              {{/link-to}}
             </div>
             <div class="card-content">
               <div class="content">
                 <h4 class="head">Stack: Vanilla JS Netflix API SASS</h4>
               </div>
               <div class="footer_text">
-                <p class="view">View Project</p>
-                <p class="view">See the code</p>
+                <a href="http://dustin-netflix.surge.sh/" target="_blank">View Project</a>
+              <a href="https://github.com/DustinJWalker/12-netflix-results" target="_blank">See the Code</a>
               </div>
             </div>
           </div>
@@ -93,61 +99,3 @@
     </div>
 </div>
 </section>
-
-
-
-
-
-
-
-
-
-
-    {{!-- <div class="column is-half--info">
-        {{#link-to "marvel" class="message is-info" }}
-    <article class="message">
-      <div class="message-header">
-        Project Info
-      </div>
-      <div class="message-body">
-        Marvel was our first project using a JavaScript framework. On this build we used VUE JS. It was an eye opening experience to see how a framework could make your job more effecient while also giving you greater ability. I'm not a huge comic book fan, but
-        using the Marvel API and searching all those iconic comic book titles, in an applicataion we built no less, was a very rewarding experience.
-      </div>
-    </article>
-    {{/link-to}}
-  </div> {{!-- </div> --}}
-
-
-    {{!-- <div class="column is-half--info">
-        {{#link-to "netflix" class="message is-info" }}
-    <article class="message is-dark">
-      <div class="message-header">
-        Project Info
-      </div>
-      <div class="message-body">
-        This was our first weekend assignment working with both JavaScirpt and API's. It was really fun to work on a project with such cultural relevance. A great learning experience with how JavaScript makes web applications interactive. Working with the API's
-        was also exciting with this project. Click to read more.
-      </div>
-    </article>
-    {{/link-to}}
-  </div> --}}
-
-
-
-
-
-  {{!-- <div class="column is-half--info">
-      {{#link-to "tshirt" class="message is-info" }}
-  <article class="message">
-    <div class="message-header">
-      Project Info
-    </div>
-    <div class="message-body">
-      T Shirts was the first project where we built the app with mobile responsiveness at the forefront. We were also getting more familiarized with using SASS to better organize the styling portion of our projects to make better use of our code. This project
-      proved to be a great exercise with styling and laid the foundation for the skills we would continue to use throughout the remainder of the cohort.
-
-    </div>
-  </article>
-
-  {{/link-to}}
-  </div> --}}

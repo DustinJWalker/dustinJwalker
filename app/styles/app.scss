@@ -30,7 +30,7 @@
 body {
   // margin: 0 auto;
   font-family: 'Playfair Display', serif;
-  text-transform: capitalize;
+  // text-transform: capitalize;
   // text-shadow: 0.5px 0.5px 0.5px #333333;
 }
 
@@ -84,4 +84,9 @@ body {
 
 .view:hover {
   color: #33bfdc;
+}
+
+.modal-card-foot {
+  // display: flex;
+  justify-content: center;
 }
